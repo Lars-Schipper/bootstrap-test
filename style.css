@@ -1,0 +1,20 @@
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    max-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40vh;
+}
+.carousel-item:nth-child(1) {
+    background-image: url('afbeelding1.png');
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('afbeelding2.png');
+}
