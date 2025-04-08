@@ -12,9 +12,9 @@
     height: 40vh;
 }
 .carousel-item:nth-child(1) {
-    background-image: url('afbeelding1.png');
+    background-image: url('./images/afbeelding1.png');
 }
 
 .carousel-item:nth-child(2) {
-    background-image: url('afbeelding2.png');
+    background-image: url('./images/afbeelding2.png');
 }
